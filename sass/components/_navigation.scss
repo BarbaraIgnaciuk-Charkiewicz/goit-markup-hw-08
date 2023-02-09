@@ -1,0 +1,37 @@
+@import '../utils/variables.scss';
+@media (min-width: 320px) {
+    .navigation{display: none;}}
+@media (min-width: 481px){
+.navigation{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}}
+.navigation__item:not(:last-child){
+    margin-right: 46px;
+}
+.navigation__link{
+    text-decoration: none;
+    color: $prymaryColor;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    transition-property:color;
+transition: $transitionFunction;
+
+&:hover{
+	color:$secondaryColor;
+}
+&:focus {
+    color:$secondaryColor   
+}}
+.navigation__item .is-active::after {
+    display: block;
+    content:"";
+    position:absolute;
+    left: auto;
+    top: 80px;
+    width: 53px;
+    height: 4px;
+    background: $secondaryColor;
+    border-radius: 2px;
+    }

@@ -1,0 +1,17 @@
+@import '../utils/variables.scss';
+.button {
+    display: flex;
+    background-color:$secondaryColor;
+    font-weight: $fontThree;
+    font-size: 16px;
+    line-height: 1.88;
+    color:$colorBtn;
+    cursor: pointer;
+    padding-left: 42px;
+    padding-right: 42px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    border-style:none;
+    box-shadow: $boxShadowBtn;
+    border-radius: 4px;}

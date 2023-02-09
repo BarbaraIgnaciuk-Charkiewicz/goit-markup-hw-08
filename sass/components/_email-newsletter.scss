@@ -1,0 +1,43 @@
+@import '../utils/variables.scss';
+.email-newsletter__icons{
+    fill: $colorBtn;
+    position: relative;
+    transform: translate(50%, 20%);
+}
+.email-newsletter{
+    display: inline-flex;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    letter-spacing: 0.03em;
+    position: absolute;
+    width: 570px;
+    height: 86px;
+        
+    }
+    .email-newsletter__input{
+    min-width: 300px;
+    border: $borderEmail;
+    border-radius: 4px;
+    background-color: $colorFooter;
+    padding-left: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+    
+    &:hover{
+        border-color:$secondaryColor;
+        color: $secondaryColor;
+    }
+    &:focus{
+        border-color:$secondaryColor;
+        color: $secondaryColor;
+    }}
+    .email-newsletter__btn{
+        position:relative;
+        width: 200px;
+        height: 50px;
+        left: 12px;
+        top: 0%;
+    }
+    

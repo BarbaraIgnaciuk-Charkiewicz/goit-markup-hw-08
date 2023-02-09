@@ -1,0 +1,24 @@
+.page-footer{
+    
+    padding-top: 60px;
+    padding-bottom: 60px; 
+}
+@media screen and (min-width: 320px)
+{.page-footer{
+    display: block;
+ text-align: center;
+ align-items: center;
+margin: 60px;
+}}
+    @media screen and (min-width: 481px)
+    {.page-footer{
+    width: 100%;
+   
+    }}
+    @media screen and (min-width: 769px)
+    {.page-footer{
+    max-width: 1200px;
+    display: flex;
+    justify-items: center;
+    }
+    }

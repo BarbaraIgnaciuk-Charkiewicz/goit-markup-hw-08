@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
+
+$fontFamily:"Roboto", sans-serif;
+$fontLogo: 'Raleway';
+
+$fontOne:400;
+$fontTwo:500;
+$fontThree:700;
+$fontFour:900;
+
+$prymaryColor:#212121;
+$secondaryColor:#2196f3;
+$colorAccent:#757575;
+$colorBtn: #FFFFFF;
+$colorFooter:#2F303A;
+$colorIcons:#AFB1B8;
+
+$borderHeader:#ECECEC;
+$borderEmail:1px solid rgba(255, 255, 255, 0.3);
+$borderLorem: 4px solid #F5F4FA;
+$borderModal: 1px solid rgba(33, 33, 33, 0.2);
+$borderProducts: 1px solid  #EEEEEE;
+$borderCustomers: 1px solid #AFB1B8;
+
+$backgroundColor:#F5F4FA;
+$backdropColor: rgba(0, 0, 0, 0.2);
+$backgroundSectionOne:#2F303A;
+$backgroundServices: rgba(47, 48, 58, 0.8);
+$boxShadowBtn:0px 4px 4px rgba(0, 0, 0, 0.15);
+$backgroundSocial:rgba(255, 255, 255, 0.1);
+
+$transitionFunction: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+$boxShadowMenu: 0px 2px 2px 0px rgba(0, 0, 0, 0.12)
+ 0px 1px 2px 0px rgba(0, 0, 0, 0.08)
+ 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+
+ $boxShadowModal:   0px 2px 1px 0px rgba(0, 0, 0, 0.2)
+ 0px 1px 1px 0px rgba(0, 0, 0, 0.14) 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+ 
+ $boxShadowProducts:0px 1px 1px rgba(0, 0, 0, 0.12) 0px 4px 4px rgba(0, 0, 0, 0.06) 1px 4px 6px rgba(0, 0, 0, 0.16);
+

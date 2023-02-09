@@ -1,0 +1,13 @@
+@import '../utils/variables.scss';
+.footer-list__item:not(:last-child){
+    margin-bottom: 9px;
+}
+.footer-list{
+    list-style:none;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    color: $colorBtn;
+    margin-top: 20px;
+    
+}

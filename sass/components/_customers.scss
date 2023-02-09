@@ -1,0 +1,28 @@
+@import '../utils/variables.scss';
+.customers{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+}  
+.customers__icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: $borderCustomers;
+    border-radius: 4px;
+    fill: $colorIcons;
+    
+    transition-property:border-color,fill;
+transition: $transitionFunction;
+
+&:hover{
+    border-color: $secondaryColor;
+    fill: $secondaryColor;   
+}
+&:focus{
+    border-color: $secondaryColor;
+    fill: $secondaryColor;
+}}

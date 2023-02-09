@@ -1,0 +1,62 @@
+@import 'utils/variables.scss';
+*{
+    margin:0 auto;
+    padding:0;
+    box-sizing:border-box;
+    outline:none;
+    }
+body{
+ font-family:$fontFamily;
+            color: $prymaryColor;
+            }   
+@media screen and (min-width: 320px)
+ {.container{
+ width: 100%;
+
+ }}
+
+@media screen and (min-width: 481px)
+{.container{
+max-width: 100%;
+margin: 10px;
+
+}}
+@media screen and (min-width: 769px)
+{.container{
+max-width: 1200px;
+
+}
+}
+@import 'components/page-header';
+@import 'components/logo';
+@import 'components/menu-toggle';
+@import 'components/navigation';
+@import 'components/contact';
+@import 'components/section-one';
+@import 'components/button';
+@import 'components/list-lorem';
+@import 'components/section';
+.workplace{
+    background-color: $backgroundColor;
+    }
+    @import 'components/team-list';
+@import 'components/footer-contact';
+@import 'components/footer-list';
+.footer-background{
+    background: $colorFooter;
+    }
+@import 'components/page-footer';
+@import 'components/menu';
+@import 'components/products';
+@import 'components/service';
+@import 'components/social-media';
+@import 'components/portfolio';
+@import 'components/customers';
+@import 'components/footer-social-media';
+@import 'components/backdrop';
+@import 'components/modal';
+@import 'components/close-button';
+@import 'components/is-hidden';
+@import 'components/btn';
+@import 'components/email-newsletter';
+@import 'components/footer-newsletter';

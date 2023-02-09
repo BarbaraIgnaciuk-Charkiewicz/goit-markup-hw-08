@@ -1,0 +1,60 @@
+@import '../utils/variables.scss';
+.products__title{
+    font-weight: $fontThree;
+    font-size: 18px;
+    line-height: 2;
+    margin-top: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-bottom: 4px;
+}
+
+.products__text{
+    font-size: 16px;
+    line-height: 1.88;
+    color: $colorAccent;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 20px;
+}
+.products__list{
+    border: $borderProducts;
+    cursor: pointer;
+
+    &:hover{
+        box-shadow:  $boxShadowProducts
+        }
+    &:focus{
+            box-shadow:  $boxShadowProducts
+        }
+    }
+        
+    .products__card{
+    position: relative;
+    overflow: hidden;   
+    }
+    
+    
+        .products__hover__text{
+            font-size: 18px;
+            line-height: 1.56;
+            letter-spacing: 0.03em;
+            color: $colorBtn;
+            }
+            .products__hover{
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                height: auto;
+                padding: 49px 45px 49px 24px;
+                background: $secondaryColor;
+                transform: translateY(100%);
+                transition: $transitionFunction;
+                  
+                }  
+                .products__card:hover .products__hover{
+                transform: translatey(0);
+                }
+                

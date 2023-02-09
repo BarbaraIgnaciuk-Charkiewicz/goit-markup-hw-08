@@ -1,0 +1,13 @@
+@import '../utils/variables.scss';
+.close-button{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+    background-color: $colorBtn;
+    border: solid 1px (0, 0, 0, 0.1);
+    border-radius: 50%;
+    cursor: pointer;
+    
+}

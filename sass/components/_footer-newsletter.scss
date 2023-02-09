@@ -1,0 +1,21 @@
+@import '../utils/variables.scss';
+.footer-newsletter__items{
+    display: flex;
+    outline: none;
+}
+.footer-newsletter
+{  align-items: center;
+    justify-content: center;
+    margin: 0;
+
+}
+.footer-newsletter__label{
+    position:relative;
+    font-weight: $fontThree;
+    line-height:1.172142;
+    font-size: 14px;
+    font-style: normal;
+    color: $colorBtn;
+    display: block;
+   
+}

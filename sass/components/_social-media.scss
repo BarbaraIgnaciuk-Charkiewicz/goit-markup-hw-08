@@ -1,0 +1,44 @@
+@import '../utils/variables.scss';
+.social-media{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 10px; 
+}
+
+.social-media__icons{
+    fill:$colorIcons;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: $colorBtn;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: $colorBtn;
+    transition-property:border-color, background-color, fill;
+transition: $transitionFunction;
+
+&:hover{
+    border-color: $secondaryColor;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: $secondaryColor;
+    fill: $colorBtn;
+}
+&:focus{
+    border: $secondaryColor;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #2196F3;
+    fill: $colorBtn;
+}}
+.social-media__icons:not(:last-child){
+    margin-right: 10px;
+}
+.social-media__items{
+    display: flex;
+    justify-content: center;
+}

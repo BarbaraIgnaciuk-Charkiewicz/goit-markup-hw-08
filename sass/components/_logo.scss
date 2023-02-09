@@ -1,0 +1,26 @@
+@import '../utils/variables.scss';
+@import '../utils/variables.scss';
+.logo{
+    font-family: $fontLogo;
+    font-weight: $fontThree;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    list-style: none;
+    text-decoration: none;
+    color: $prymaryColor;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    transition-property:color;
+    transition: $transitionFunction;
+    
+    
+    &:hover{
+        color: $secondaryColor;
+    }
+    &:focus{
+        color: $secondaryColor;  
+    }}
+    .logo__label{
+        color:$secondaryColor;
+    }

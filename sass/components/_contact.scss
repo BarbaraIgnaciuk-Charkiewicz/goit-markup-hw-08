@@ -1,0 +1,34 @@
+@import '../utils/variables.scss';
+@media (min-width: 320px) {
+    .contact{display: none;}}
+@media (min-width: 481px){
+.contact{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}}
+
+
+.contact__item:not(:last-child){
+    margin-right: 50px;
+}
+.contact__link{
+    color: $colorAccent;
+    text-decoration: none;
+ transition-property:color,fill;
+transition: $transitionFunction;
+
+&:hover{
+color:$secondaryColor;
+fill: $secondaryColor;
+}
+&:focus {
+color:$secondaryColor;
+fill: $secondaryColor;
+} }
+.contact__icons{
+    fill: $colorAccent;
+    padding-top: 0 auto;
+    padding-bottom: 0 auto;
+    margin-right: 10px;
+}

@@ -1,0 +1,41 @@
+@import '../utils/variables.scss';
+.menu__button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    cursor: pointer;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border-style:none;
+    background-color:$backgroundColor;
+    transition-property:background-color,color,box-shadow;
+transition: $secondaryColor;
+border-radius: 4px;
+
+
+&:hover{
+background-color:$secondaryColor;
+color: $colorBtn;
+box-shadow:$boxShadowMenu;
+
+    
+}
+&:focus{
+background-color:$secondaryColor;
+color: $colorBtn;
+box-shadow: $boxShadowMenu;
+}}
+.menu{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-left: 510px;
+    padding-right: 518px;
+    padding-bottom: 34px;
+    margin: 0 auto;
+   }
+.menu__item:not(:last-child){
+    margin-right: 8px;
+   }
