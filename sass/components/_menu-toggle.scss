@@ -4,11 +4,16 @@
  {.menu-toggle{
     background-color: $colorBtn;
     border: none;
-    fill: black;
+    fill: $prymaryColor;
     position: absolute;
   right: 4px;
 top: 26px;
-
+&:hover{
+  fill:$secondaryColor;
+}
+&:hover{
+  fill:$secondaryColor;
+}
  }}
 
 @media screen and (min-width: 481px)
