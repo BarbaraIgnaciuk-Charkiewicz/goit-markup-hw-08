@@ -1447,18 +1447,22 @@ body {
 }
 @media (min-width: 320px) {
   .menu-modal {
-    position: absolute;
+    position: fixed;
+    top: 0;
+    left: 0;
     padding-left: 40px;
     padding-top: 42px;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
     height: 100%;
     width: 100%;
     background-color: #FFFFFF;
   }
 }
+.menu-modal.is-open {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
 .menu-modal__item {
   list-style: none;
   margin-bottom: 32px;
