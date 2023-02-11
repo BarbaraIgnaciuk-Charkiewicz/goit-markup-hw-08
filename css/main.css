@@ -777,7 +777,6 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 1200px;
     margin-bottom: 94px;
     font-size: 36px;
     line-height: 1.17;
@@ -1448,16 +1447,20 @@ body {
 @media (min-width: 320px) {
   .menu-modal {
     position: fixed;
-    top: 0;
-    left: 0;
     padding-left: 40px;
     padding-top: 42px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     height: 100%;
     width: 100%;
     background-color: #FFFFFF;
   }
 }
 .menu-modal.is-open {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
   opacity: 0;
   visibility: hidden;
   pointer-events: none;

@@ -28,7 +28,6 @@
     @media screen and (min-width: 769px)
     {.service__title{
     display: flex;
-    width: 1200px;
     margin-bottom:94px;
     font-size: 36px;
     line-height: 1.17;
@@ -42,6 +41,7 @@
        justify-content: flex-start;
        align-items: flex-start;
     }
+    
     .service__item>.service__text{
     position: absolute;
     bottom: 0;

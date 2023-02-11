@@ -3,15 +3,17 @@
 @media (min-width: 320px) {
 .menu-modal {
 position: fixed;
-top: 0;
-left: 0;
 padding-left: 40px;
 padding-top: 42px;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
 height: 100%;
 width: 100%;
 background-color: $colorBtn;
 }}
 .menu-modal.is-open {
+    transform: translateX(0);
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
