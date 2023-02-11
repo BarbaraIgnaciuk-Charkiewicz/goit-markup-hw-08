@@ -2,8 +2,11 @@
 .customers{
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
     list-style: none;
+    justify-content: center;
+.customers__item{
+flex-basis: calc((100% - (1 * 10px)) / 3);
+gap: 10px;
 }  
 .customers__icons{
     display: flex;
@@ -14,7 +17,6 @@
     border: $borderCustomers;
     border-radius: 4px;
     fill: $colorIcons;
-    
     transition-property:border-color,fill;
 transition: $transitionFunction;
 
@@ -25,4 +27,4 @@ transition: $transitionFunction;
 &:focus{
     border-color: $secondaryColor;
     fill: $secondaryColor;
-}}
+}}}

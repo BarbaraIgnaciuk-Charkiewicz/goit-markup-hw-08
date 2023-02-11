@@ -4,9 +4,16 @@
 @media (min-width: 481px){
 .contact{
     list-style: none;
-    display: flex;
+    display: block;
     align-items: center;
 }}
+@media (min-width: 769px){
+    .contact{
+        display: flex;
+        justify-content: flex-start;
+       margin: 0;
+        
+    }}
 
 
 .contact__item:not(:last-child){

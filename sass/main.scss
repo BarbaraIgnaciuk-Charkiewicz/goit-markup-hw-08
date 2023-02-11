@@ -12,18 +12,20 @@ body{
 @media screen and (min-width: 320px)
  {.container{
  width: 100%;
+ margin: 0 auto;
 
  }}
 
 @media screen and (min-width: 481px)
 {.container{
-max-width: 100%;
-margin: 10px;
+width: 100%;
+
 
 }}
 @media screen and (min-width: 769px)
 {.container{
-max-width: 1200px;
+width: 1200px;
+
 
 }
 }
@@ -44,6 +46,7 @@ max-width: 1200px;
 @import 'components/footer-list';
 .footer-background{
     background: $colorFooter;
+
     }
 @import 'components/page-footer';
 @import 'components/menu';

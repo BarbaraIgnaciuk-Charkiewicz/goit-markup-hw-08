@@ -5,8 +5,14 @@
 .navigation{
     list-style: none;
     display: flex;
-    align-items: center;
+    padding-left: 45px;
 }}
+@media (min-width: 769px){
+    .navigation{
+        list-style: none;
+        display: flex;
+        padding-left: 93px;
+    }}
 .navigation__item:not(:last-child){
     margin-right: 46px;
 }

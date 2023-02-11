@@ -1,20 +1,47 @@
 @import '../utils/variables.scss';
-.email-newsletter__icons{
-    fill: $colorBtn;
-    position: relative;
-    transform: translate(50%, 20%);
-}
-.email-newsletter{
-    display: inline-flex;
-    font-size: 16px;
-    line-height: 20px;
-    align-items: center;
-    letter-spacing: 0.03em;
-    position: absolute;
-    width: 570px;
-    height: 86px;
-        
-    }
+
+
+    @media (min-width: 320px) {
+        .email-newsletter{
+            display: block;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+            line-height: 20px;
+            letter-spacing: 0.03em;
+            position: absolute;
+            left: 0;
+           width: 100%;
+            height: 86px;
+            margin-top: 20px;
+            margin-bottom:20px ;
+                
+            }}
+    @media (min-width:481px){
+        .email-newsletter{
+            width: 100%;
+            position: relative;
+            width: 450px;
+            height: 86px;
+        }}
+    @media (min-width:769px){
+        .email-newsletter{
+            display: inline-flex;
+            font-size: 16px;
+            line-height: 20px;
+            align-items: center;
+            letter-spacing: 0.03em;
+            position: absolute;
+            left: 49%;
+            width: 570px;
+            height: 86px;
+                
+            }}
+            .email-newsletter__icons{
+                fill: $colorBtn;
+                position: relative;
+                transform: translate(50%, 20%);
+            }
     .email-newsletter__input{
     min-width: 300px;
     border: $borderEmail;
