@@ -22,6 +22,7 @@
         list-style: none;
         margin: 0;
         margin-right: 78px;
+    
     }}
 
 .footer-social-media__title{
@@ -74,5 +75,10 @@
         display: flex;
         flex-wrap: wrap;
         list-style: none;
+
         
     }
+    @media (min-width:769px)
+    {.footer-social-media__item{
+      
+     gap: 10px;}}
