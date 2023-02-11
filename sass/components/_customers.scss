@@ -1,13 +1,26 @@
 @import '../utils/variables.scss';
+@media (min-width: 320px) {
 .customers{
     display: flex;
     flex-wrap: wrap;
     list-style: none;
     justify-content: center;
+}}
+@media (min-width: 320px) {
+    .customers__item{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }}
+    @media (min-width: 481px){
 .customers__item{
 flex-basis: calc((100% - (1 * 10px)) / 3);
 gap: 10px;
-}  
+} }
+@media (min-width: 769px){
+    .customers__item{
+    flex-basis: calc((100% - (1 * 10px)) / 6);
+    gap: 10px;
+    } }
 .customers__icons{
     display: flex;
     justify-content: center;
@@ -27,4 +40,4 @@ transition: $transitionFunction;
 &:focus{
     border-color: $secondaryColor;
     fill: $secondaryColor;
-}}}
+}}

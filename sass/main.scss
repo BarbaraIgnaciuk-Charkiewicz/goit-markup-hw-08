@@ -19,16 +19,13 @@ body{
 @media screen and (min-width: 481px)
 {.container{
 width: 100%;
-
-
 }}
 @media screen and (min-width: 769px)
 {.container{
-width: 1200px;
-
-
-}
-}
+width: 100%;}}
+@media screen and (min-width: 1200px)
+{.container{
+width: 1200px;}}
 @import 'components/page-header';
 @import 'components/logo';
 @import 'components/menu-toggle';

@@ -10,9 +10,9 @@ width: auto;
     width: auto;
    
     }}
-    @media screen and (min-width: 769px)
+    @media screen and (min-width: 769px) and (max-width: 1200px)
     {.section-one{
-    max-width: 1200px;
+    width:100%;
    
     }
     }
@@ -21,7 +21,7 @@ width: auto;
     background: linear-gradient(#2f303a66, #2f303a66),url(../images/img-title.jpg);
     background-position:center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:contain;
     
     }
     .section-one__title{
