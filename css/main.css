@@ -1458,7 +1458,7 @@ body {
     background-color: #FFFFFF;
   }
 }
-.menu-modal.is-open {
+.menu-modal .is-open {
   -webkit-transform: translateX(0);
           transform: translateX(0);
   opacity: 0;

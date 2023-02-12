@@ -12,7 +12,7 @@ height: 100%;
 width: 100%;
 background-color: $colorBtn;
 }}
-.menu-modal.is-open {
+.menu-modal .is-open {
     transform: translateX(0);
     opacity: 0;
     visibility: hidden;
