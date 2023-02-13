@@ -1449,21 +1449,22 @@ body {
     position: fixed;
     padding-left: 40px;
     padding-top: 42px;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    left: 0;
+    top: 0;
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+    -webkit-transition: -webkit-transform 250ms ease-in-out;
+    transition: -webkit-transform 250ms ease-in-out;
+    transition: transform 250ms ease-in-out;
+    transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
     height: 100%;
     width: 100%;
     background-color: #FFFFFF;
   }
 }
-.menu-modal .is-open {
+.menu-modal.is-open {
   -webkit-transform: translateX(0);
           transform: translateX(0);
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
 }
 
 .menu-modal__item {
