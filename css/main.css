@@ -284,6 +284,16 @@ body {
   background-size: cover;
 }
 
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .section-one {
+    background-image: url(../images/img-title.jpg);
+  }
+}
+@media (min-device-pixel-ratio: 3), (-webkit-min-device-pixel-ratio: 3), (min-resolution: 288dpi), (min-resolution: 3dppx) {
+  .section-one {
+    background-image: url(../images/img-title.jpg);
+  }
+}
 .section-one__title {
   min-width: 320px;
   font-size: 26px;
