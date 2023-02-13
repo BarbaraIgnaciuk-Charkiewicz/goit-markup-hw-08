@@ -15,17 +15,13 @@ width: auto;
     width:100%;
     }
     }
-    @media screen and (min-width: 1200px)
-    {.section-one{
-    width:1200px;
-    }
-    }
 .section-one{
     padding: 10em 0;
     background: linear-gradient(#2f303a66, #2f303a66),url(../images/img-title.jpg);
     background-position:center;
     background-repeat: no-repeat;
     background-size:cover;
+    max-width: 1200px;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -60,8 +56,6 @@ width: auto;
         }}
         @media screen and (min-width: 769px)
         {.section-one__title{
-        max-width: 1200px;
-    
         font-size: 44px;
         line-height: 1.36;
         }
